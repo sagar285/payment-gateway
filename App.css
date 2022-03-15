@@ -1,0 +1,147 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+div .payment{
+  border: 5px solid gray;
+  height: 150rem;
+  width:30rem;
+  margin-left:6rem;
+  margin-top: 4rem;
+}
+.paymentmehtod{
+  margin-top:3rem;
+  margin-left:2rem;
+  font-family:sans-serif;
+  font-weight: bolder;
+  font-size: x-large;
+}
+div .cardimage{
+  border:1px solid gray;
+  height:3rem;
+  width:4.2rem;
+  margin-left:1rem;
+
+}
+.Creditcard {
+  border-spacing:0ch;
+  display: inline-flex;
+
+}
+.Creditcard input{
+  height: 2.8rem;
+  width: 22.3rem;
+}
+ .month{
+  display: flex;
+}
+.month input{
+  border:1px solid gray;
+  margin-top: 2rem;
+  height:2.6rem;
+  margin-left:1rem;
+}
+.month .securitycode{
+  margin-left: 0%;
+  width:16rem;
+}
+
+div .securityimage{
+  border:1px solid grey;
+  height: 2.7rem;
+  width: 3rem;
+  margin-top: 2rem;
+  margin-right: 1rem;
+}
+div .payornot{
+ 
+}
+div .pay{
+  margin-top: 2rem;
+height:2.8rem;
+width:16rem;
+margin-left:1rem;
+}
+div .cancel{
+  height:2.8rem;
+  width:11rem;
+  margin-left: 1rem;
+  background: transparent;
+}
+div .netbanking{
+  font-weight: bolder;
+  font-size: larger;
+  margin-left: 1rem;
+}
+div .radio{
+  vertical-align: auto;
+}
+div .save{
+  margin-left:2rem;
+  width: 12rem;
+  height: 2.8rem;
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+}
+div .paytm{
+  height:2rem;
+  margin-top:1rem;
+ 
+  font-weight: bold;
+}
+div .ptmbtn{
+  margin-top:1rem;
+  margin-left:2rem;
+}
+div .eballet{
+  margin-top:6rem;
+  
+  letter-spacing: 0.09rem;
+  font-size: larger;
+  font-weight: 500;
+  
+}
+div .UPI{
+  margin-top:2rem;
+}
+
+  
